@@ -60,6 +60,11 @@ ul li {
   background-color: hsl(0, 0%, 20%);
 }
 
+ul li a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
 .attribution {
   font-family: "Inter", sans-serif;
 
