@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/assets/images/social-links-finished-project-mobile.jpeg)
+![](</assets/images/social-links-finished-project%20(2).jpeg>)
 
 ### Links
 
