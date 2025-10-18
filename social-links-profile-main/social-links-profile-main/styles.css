@@ -65,6 +65,24 @@ ul li a {
   text-decoration: none;
 }
 
+ul li:hover a,
+ul li:active a {
+  color: hsl(0, 0%, 20%);
+}
+
+ul li:hover,
+ul li:active {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+/* ul li a:active,
+ul li a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  cursor: pointer;
+} */
+
 .attribution {
   font-family: "Inter", sans-serif;
   font-size: 10px;
@@ -78,6 +96,8 @@ ul li a {
   font-style: italic;
   text-decoration: none;
 }
+
+/* Desktop Styles */
 
 @media (max-width: 1440px) {
   ul {
