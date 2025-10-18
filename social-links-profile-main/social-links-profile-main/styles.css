@@ -35,7 +35,7 @@ h2 {
 
 .container p:first-of-type {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   color: hsl(75, 94%, 57%);
   margin-bottom: 1.8rem;
 }
@@ -67,15 +67,24 @@ ul li a {
 
 .attribution {
   font-family: "Inter", sans-serif;
-
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
   color: white;
-  margin-top: -3rem;
-  margin-bottom: 2rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
 }
 .attribution a {
   color: hsl(75, 94%, 57%);
   font-style: italic;
   text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  ul {
+    width: 90%;
+  }
+
+  .attribution {
+    font-size: 12px;
+  }
 }
