@@ -14,7 +14,7 @@ body {
 .container {
   width: 88%;
   max-width: 375px;
-  margin: 8rem auto;
+  margin: 8.5rem auto;
   text-align: center;
   border-radius: 12px;
   padding-bottom: 1rem;
@@ -25,17 +25,18 @@ body {
 img {
   border-radius: 50%;
   width: 90px;
-  margin: 1.5rem 0 1rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 h2 {
-  margin: 1rem 0 0.7rem 0;
-  font-weight: 700;
+  letter-spacing: 1;
+  margin: 1rem 0 0.6rem 0;
+  font-weight: 600;
 }
 
 .container p:first-of-type {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.87rem;
+  font-weight: 550;
   color: hsl(75, 94%, 57%);
   margin-bottom: 1.8rem;
 }
@@ -43,7 +44,7 @@ h2 {
 .second-p {
   font-size: 0.85rem;
   font-weight: 300;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 ul {
@@ -55,8 +56,9 @@ ul li {
   margin: 1rem;
   padding: 0.8rem;
   list-style: none;
-  font-weight: 700;
-  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
   background-color: hsl(0, 0%, 20%);
 }
 
@@ -88,9 +90,10 @@ ul li a:hover {
   font-size: 10px;
   text-align: center;
   color: white;
-  margin-top: -6.5rem;
-  margin-bottom: 1rem;
+  margin-top: -7.5rem;
+  margin-bottom: 7rem;
 }
+
 .attribution a {
   color: hsl(75, 94%, 57%);
   font-style: italic;
@@ -99,7 +102,7 @@ ul li a:hover {
 
 /* Desktop Styles */
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .container {
     margin-top: 20rem;
   }
