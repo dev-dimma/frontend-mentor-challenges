@@ -103,7 +103,7 @@ ul li a:hover {
 /* Desktop Styles */
 @media (min-width: 1440px) {
   .container {
-    margin-top: 20rem;
+    margin-top: 10rem;
   }
 
   ul {
