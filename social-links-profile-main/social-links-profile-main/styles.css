@@ -101,14 +101,13 @@ ul li a:hover {
 }
 
 /* Desktop Styles */
-
 @media (min-width: 1440px) {
   .container {
     margin-top: 20rem;
   }
 
   ul {
-    width: 90%;
+    width: 85%;
   }
 
   .attribution {
