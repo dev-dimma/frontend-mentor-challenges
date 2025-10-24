@@ -10,33 +10,33 @@
       href="./assets/images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Blog preview card</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <main>
-      <h3>Learning</h3>
+    <main class="container">
+      <img
+        class="blog-header-image"
+        src="/assets/images/illustration-article.svg"
+        alt="Image"
+        width="200px"
+        loading="lazy"
+      />
 
-      <p>Published 21 Dec 2023</p>
+      <p class="blog-learning">Learning</p>
 
-      <h2>HTML & CSS foundations</h2>
+      <p class="blog-publish-date">Published 21 Dec 2023</p>
 
-      <p>
+      <h3 class="blog-topic">HTML & CSS foundations</h3>
+
+      <p class="blog-intro">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
 
-      <div>
-        <img src="/assets/images/image-avatar.webp" />
+      <section class="author">
+        <img src="/assets/images/image-avatar.webp" loading="lazy" />
         <p>Greg Hooper</p>
-      </div>
+      </section>
     </main>
 
     <footer>
