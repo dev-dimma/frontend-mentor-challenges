@@ -8,7 +8,7 @@
 
 body {
   background-color: white;
-  /* background: hsl(0, 0%, 8%); */
+  background: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
 }
@@ -60,7 +60,7 @@ ul li {
   list-style: none;
   font-weight: 600;
   font-size: 0.8rem;
-  border-radius: 8px;
+  border-radius: 7px;
   background-color: hsl(0, 0%, 20%);
 }
 
@@ -81,6 +81,7 @@ ul li:active {
 }
 
 .attribution {
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 10px;
   color: white;
