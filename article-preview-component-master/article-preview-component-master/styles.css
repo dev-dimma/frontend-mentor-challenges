@@ -1,3 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
+
+main {
+  width: 85%;
+  margin: 23% auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.article-text-contents {
+  background-color: white;
+  padding: 30px;
+}
+
+h3 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.profile-section img {
+  width: 22%;
+  height: auto;
+}
+
+.profile-section div p {
+  padding-block: 0;
+  margin-bottom: 5px;
+}
+
+.profile-section div p:first-of-type {
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+
+.profile-section div p:last-of-type {
+  color: hsl(212, 23%, 69%);
+}
+
+.avatar-michelle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;

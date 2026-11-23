@@ -10,21 +10,46 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
     <main>
       <img src="images/drawers.jpg" alt="Drawers" width="660" height="528" />
-      <p>
-        Shift the overall look and feel by adding these wonderful touches to
-        furniture in your home
-      </p>
+      <div class="article-text-contents">
+        <h3>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h3>
 
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps it felt
-        slightly bare and uninviting. I’ve got some simple tips to help you make
-        any room feel complete. Michelle Appleton 28 Jun 2020 Share
-      </p>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <div class="profile-section">
+          <img
+            src="images/avatar-michelle.jpg"
+            width="175"
+            height="175"
+            alt="Avatar pofile"
+            class="avatar-michelle"
+          />
+
+          <div>
+            <p><strong>Michelle Appleton</strong></p>
+            <p>28 Jun 2020</p>
+          </div>
+        </div>
+
+        <!-- Share -->
+      </div>
     </main>
 
     <footer class="attribution">
